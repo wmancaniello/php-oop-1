@@ -30,10 +30,10 @@ class Movie
     }
     public function setGenre($genre)
     {
-        $this->title = $genre;
+        $this->genre = $genre;
     }
 
-    // Annp
+    // Anno
     public function getYear()
     {
         return $this->year;
